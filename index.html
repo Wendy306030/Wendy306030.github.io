@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		p {font-weight: bold; color: purple;}
+		h1 {font-family: tahoma, helvetica, sans-serif;}
+		i {font-family: tahoma, helvetica, sans-serif;}
+		i {font-weight: bold; color: skyblue;}
+	</style>	
+</head>
+<body>
+	<h1>New HTML5 Input Types Demo</h1>
+	<p>This form demonstrates the <i>new HTML5 input types and the placeholder</i>, required and autofocus attributes.</p>
+
+	<label>Color:
+		<input type="color" autofocus />
+		(Hexadecimal code such as #ADD8E6)
+	</label>
+
+<p></p>
+
+<form action="/ action_page.php">
+	<label for="date">Date:</label>
+	<input type="date" id="birthday" name="birthday">
+	(yyyy-mm-dd)
+</form>	
+
+<p></p>
+
+<form>Email:
+	<input type="email" name="email" placeholder="name@domain.com" required>
+	(name@domain.com)
+</form>
+
+<p></p>
+
+<form action="/ action_page.php">Number:
+	<input type="number" id="quantity"name="quantity" min="0" max="7" value="4">
+	<label for="quantity">(Enter a number between 0 and 7)</label>
+</form>
+
+<p></p>
+
+<form action="/action_page.php" method="get">
+	<label for="range">Range: 0</label>
+	<input type="range" id="vol" name="vol" min="0" max="20">20
+</form>	
+
+<p></p>
+
+<form action="/ action_page.php">
+	<label for="gsearch">Search:</label>
+	<input type="text" id="search" name="search" placeholder="search query">
+</form>	
+
+<p></p>
+
+<form action="/ action_page.php">
+	<label for="appt">Time:</label>
+	<input type="time" id="appt" name="appt">
+	(hh:mm)
+</form>	
+
+<p></p>
+
+<input type="submit" value="Submit">
+<input type="reset" value="Clear">
+
+<p> To write to <a href = "file:///Users/wendy/Desktop/internal.html"> My exercise</a>, click the link. </p>
+
+</body>
+</html>
