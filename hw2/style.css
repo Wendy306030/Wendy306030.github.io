@@ -1,0 +1,45 @@
+p {font-weight: bold; color: purple;}
+		h1 {font-family: tahoma, helvetica, sans-serif;}
+		i {font-family: tahoma, helvetica, sans-serif;}
+		i {font-weight: bold; color: skyblue;}
+		body {background-color: lightyellow;}
+
+
+p {font-weight: bold; color: orangered;}
+		h1 {font-family: tahoma, helvetica, sans-serif;}
+		i {font-family: tahoma, helvetica, sans-serif;}
+		i {font-weight: bold; color: purple;}
+		#myHeader{
+			background-color: blueviolet;
+			padding: 35px;
+			text-align: center;
+		}
+		.rabbit{
+			background-color: purple;
+			color: white;
+			padding: 10px;
+		}
+
+		span{
+			color: skyblue;
+			border: 1px solid black;
+		}
+		.extra span{
+			color: inherit;
+		}
+
+
+ #myHeader{
+			background-color: rgb(173, 173, 237);
+			padding-top: 50px;
+			padding-bottom: 50px;
+			padding-right: 30px;
+			padding-left: 80px;
+			text-align: center;
+		}
+
+        .info{
+			background-color: pink;
+			color: white;
+			padding: 10px;
+		}

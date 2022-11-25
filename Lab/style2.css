@@ -1,0 +1,34 @@
+body{font-family: arial, sans-serif;
+	 padding: 0;
+	 color: skyblue;
+	 background-color: lightgrey;}
+
+nav{font-weight: bold;
+	color: white;
+	border: 2px solid rosybrown;
+	text-align: center;
+	width: 10em;
+	background-color: rosybrown;}
+
+nav ul{display: none;
+	   list-style: none;
+	   margin: 0;
+	   padding: 0;
+	   top: 30px;
+	   left: 30px;
+	   width: 10em;
+	   position: 50px;}
+
+nav:hover ul{display: block;}
+
+nav ul li{border-top: 2px solid rosybrown;
+		  background-color: white;
+		  width: 10em;
+		  color: black;
+		  border-right: 30px;
+		  padding: 0;
+		  margin-bottom: 35px;}
+
+nav ul li:hover{background-color: lavender;}
+
+a{text-decoration: none;}
